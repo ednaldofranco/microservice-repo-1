@@ -1,8 +1,6 @@
 oauth:
  client:
   name: myappname123
-oauth:
- client:
   secret: 123456
 
 jwt:
