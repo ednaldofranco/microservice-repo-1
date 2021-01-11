@@ -1,4 +1,9 @@
-oauth.client.name=myappname123
-oauth.client.secret=123456
+oauth:
+ client:
+  name: myappname123
+oauth:
+ client:
+  secret: 123456
 
-jwt.secret=MY-JWT-SECRET
+jwt:
+ secret: 'MY-JWT-SECRET'
