@@ -15,7 +15,8 @@ spring:
     lob.non_contextual_creation: true
    hbm2ddl: 
     delimiter: ';'
-datasource:
-  url: 'jdbc:postgresql://localhost:5433/db_hr_user'
-  username: 'postgres'
-  password: '1234567'
+   datasource:
+     driver-class-name: org.postgresql.Driver
+     url: 'jdbc:postgresql://localhost:5433/db_hr_user'
+     username: 'postgres'
+     password: '1234567'
