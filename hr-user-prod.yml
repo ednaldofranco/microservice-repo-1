@@ -1,7 +1,7 @@
 
 spring:
  datasource:
-  url: 'jdbc:postgresql://hr-user-pg12:5433/db_hr_user'
+  url: 'jdbc:postgresql://hr-user-pg12:5432/db_hr_user'
   username: postgres
   password: 1234567
  jpa:
